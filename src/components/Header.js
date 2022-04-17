@@ -1,9 +1,13 @@
 import React from "react";
 import Logo from "../images/Logo.png";
-import "../styles/Header.module.css";
+import "../styles/Header.css";
 
 const HeaderBackground = {
   backgroundColor: "#e6c1b6",
+};
+
+const HeaderColor = {
+  color: "#17285B",
 };
 
 const Header = () => {
@@ -18,8 +22,12 @@ const Header = () => {
           <img src={Logo} alt="LogoNestar" />
         </div>
 
-        <div className="flex flex-row justify-between">
-          <div className="flex flex-row justify-between mr-10">
+        <div
+          className="flex flex-row justify-between"
+          id="headertext"
+          style={HeaderColor}
+        >
+          <div className="flex flex-row justify-between mr-10 md:visible invisible">
             <h1 className="mr-10">EN</h1>
 
             <h1>DE</h1>

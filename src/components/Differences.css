@@ -1,0 +1,9 @@
+@import "../css/typography.css";
+
+#differencetext {
+  font-family: "Lucifer Sans Medium";
+}
+
+#differencetextb {
+  font-family: "Lucifer Sans Light";
+}
