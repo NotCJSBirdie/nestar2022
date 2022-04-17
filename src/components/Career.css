@@ -1,0 +1,9 @@
+@import "../css/typography.css";
+
+#careertext {
+  font-family: "Lucifer Sans Medium";
+}
+
+#careertextb {
+  font-family: "Lucifer Sans Light";
+}
